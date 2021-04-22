@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BeanStock | Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <nav>
+            <div class="logo">
+                <h4>BeanStock</h4>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="../html/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Product</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+       
+        <div class="canvas">
+            
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+
+            <div class="box2">
+
+                <div class="square" style="--i:0;"></div>
+                <div class="square" style="--i:1;"></div>
+                <div class="square" style="--i:2;"></div>
+                <div class="square" style="--i:3;"></div>
+                <div class="square" style="--i:4;"></div>
+
+                <div class="form">
+
+                    <form action="login">
+
+                        <h2>Login</h2>
+                        <div class="inputBox">
+                            <input type="text" placeholder="Username">
+                        </div>
+                        <div class="inputBox">
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" value="Login">
+                        </div>
+                        
+                    </form>
+                    <p class="question">Forgot Password? <a href="#">Click Here</a></p>
+                    <p class="question">Don't have an account? <a href="#">Sign Up</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <script src="../js/app.js"></script>
+    </body>
+</html>
